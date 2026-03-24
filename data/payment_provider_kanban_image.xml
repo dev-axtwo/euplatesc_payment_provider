@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- noupdate omitted so image refreshes on module upgrade (kanban uses image_128 on payment.provider) -->
+<odoo>
+    <record id="payment_provider_euplatesc" model="payment.provider">
+        <field name="image_128" type="base64" file="payment_euplatesc/static/img/icon.png"/>
+    </record>
+</odoo>

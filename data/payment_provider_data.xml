@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="payment_provider_euplatesc" model="payment.provider">
+        <field name="name">EuPlătesc.ro</field>
+        <field name="sequence">45</field>
+        <field name="code">euplatesc</field>
+        <field name="state">disabled</field>
+        <field name="module_id" ref="base.module_payment_euplatesc"/>
+        <field name="payment_method_ids" eval="[Command.set([
+            ref('payment_euplatesc.payment_method_euplatesc'),
+        ])]"/>
+    </record>
+
+</odoo>

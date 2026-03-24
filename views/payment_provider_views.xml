@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="payment_provider_form" model="ir.ui.view">
+        <field name="name">payment.provider.form.euplatesc</field>
+        <field name="model">payment.provider</field>
+        <field name="inherit_id" ref="payment.payment_provider_form"/>
+        <field name="priority">20</field>
+        <field name="arch" type="xml">
+            <page name="credentials" position="attributes">
+                <attribute name="invisible" separator="or" add="code == 'euplatesc'"/>
+            </page>
+            <page name="configuration" position="inside">
+                <group string="EuPlătesc.ro" name="euplatesc_info" invisible="code != 'euplatesc'">
+                    <div class="alert alert-info" role="status" colspan="2">
+                        This provider has no live payment integration. Use it to link payment methods
+                        and register transactions from your own API or back-office flows.
+                    </div>
+                </group>
+            </page>
+        </field>
+    </record>
+
+</odoo>
