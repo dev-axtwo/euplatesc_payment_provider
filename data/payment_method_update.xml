@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Refresh method code/refund on upgrades (base payment_method_data is noupdate=1) -->
-<odoo>
-    <record id="payment_method_euplatesc" model="payment.method">
-        <field name="code">EuPlatesc</field>
-        <field name="support_refund">partial</field>
-    </record>
-</odoo>

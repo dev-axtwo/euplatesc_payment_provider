@@ -8,7 +8,7 @@
         <field name="state">disabled</field>
         <field name="module_id" ref="base.module_payment_euplatesc"/>
         <field name="payment_method_ids" eval="[Command.set([
-            ref('payment_euplatesc.payment_method_euplatesc'),
+            ref('payment.payment_method_card'),
         ])]"/>
     </record>
 
