@@ -2,7 +2,7 @@
 
 from odoo import api, fields, models
 
-from odoo.addons.payment_euplatesc import const
+from odoo.addons.euplatesc_payment_provider import const
 
 
 class PaymentProvider(models.Model):

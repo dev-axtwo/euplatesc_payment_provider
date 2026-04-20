@@ -6,7 +6,7 @@
         <field name="sequence">45</field>
         <field name="code">euplatesc</field>
         <field name="state">disabled</field>
-        <field name="module_id" ref="base.module_payment_euplatesc"/>
+        <field name="module_id" ref="base.module_euplatesc_payment_provider"/>
         <field name="payment_method_ids" eval="[Command.set([
             ref('payment.payment_method_card'),
         ])]"/>
