@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Payment Provider: EuPlătesc.ro (placeholder)',
-    'version': '19.0.1.0.4',
+    'version': '19.0.1.0.5',
     'category': 'Accounting/Payment Providers',
     'sequence': 360,
     'summary': 'EuPlătesc.ro payment provider entry for backend / API-recorded transactions.',

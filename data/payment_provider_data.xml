@@ -2,7 +2,7 @@
 <odoo noupdate="1">
 
     <record id="payment_provider_euplatesc" model="payment.provider">
-        <field name="name">EuPlătesc.ro</field>
+        <field name="name">EuPlătesc</field>
         <field name="sequence">45</field>
         <field name="code">euplatesc</field>
         <field name="state">disabled</field>
